@@ -1,0 +1,23 @@
+.cards {
+    /* background-color: rgb(38 48 68); */
+    color: white;
+
+}
+
+.cards .icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(32, 41, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgb(67 67 67 / 15%) !important;
+}

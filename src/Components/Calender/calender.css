@@ -1,0 +1,96 @@
+/* CalendarForm.css */
+.calendar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side-form {
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* لتغيير لون خلفية التقويم */
+.react-calendar {
+    background-color: #f0f0f0;
+    /* لون الخلفية الأساسي */
+    border: none;
+    /* إزالة الحدود الافتراضية */
+    border-radius: 10px;
+    /* لإعطاء الزوايا استدارة بسيطة */
+    padding: 10px;
+}
+
+/* لتغيير لون النصوص داخل التقويم */
+.react-calendar__month-view__days__day {
+    color: #333;
+    /* لون النص الافتراضي */
+}
+
+/* لتغيير لون العنوان (مثل الشهر الحالي) */
+.react-calendar__navigation {
+    background-color: transparent;
+    /* تغيير لون الخلفية (اختياري) */
+}
+
+.react-calendar__navigation__label {
+    color: #007bff;
+    /* لون النص للعنوان */
+    font-size: 1.2rem;
+    /* تغيير حجم الخط (اختياري) */
+    font-weight: bold;
+    /* جعل النص سميكاً */
+}
+
+/* لتغيير لون النص المختار */
+.react-calendar__tile--active {
+    background-color: #007bff;
+    /* لون الخلفية للعنصر المختار */
+    color: white;
+    /* لون النص للعنصر المختار */
+}
+
+/* لإضافة تأثير hover */
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+    background-color: #e0e0e0;
+    /* لون الخلفية عند التحويم */
+    color: #333;
+    /* لون النص عند التحويم */
+}
+
+/* لتخصيص شكل اليوم الحالي */
+.react-calendar__tile--now {
+    background-color: #ffcc00;
+    /* لون الخلفية لليوم الحالي */
+    color: white;
+    /* لون النص لليوم الحالي */
+}

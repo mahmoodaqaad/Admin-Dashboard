@@ -1,0 +1,97 @@
+.Myphoto {
+
+    background: url("../../IMG/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    position: relative;
+    height: 240px;
+    color: inherit;
+    background-size: cover;
+
+}
+
+.profile-img {
+    --size: 120px;
+    position: relative;
+    object-fit: cover;
+    width: var(--size);
+    height: var(--size);
+    top: calc(var(--size) / -2);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 6px solid #333;
+}
+
+.follow {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 400px;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+.follow .box {
+    background-color: #37404f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    color: #bbb;
+    padding: 10px 0;
+}
+
+.border-end {
+    border-right-color: #5a5a5a !important;
+
+}
+
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.icon-profile {
+    padding: 2px 6px;
+    position: absolute;
+    left: 53%;
+    top: 14px !important;
+    font-size: 14px;
+}
+
+.socail {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.socail a svg {
+    
+    width: 30px;
+    /* height: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #444; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #aaa;
+}
